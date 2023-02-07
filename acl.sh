@@ -32,8 +32,6 @@ setfacl -m g:profesorado:x /media/alurod1862/Publico
 setfacl -m g:alumnado:x /media/alurod1862/Publico
 
 
-
-
 #1ESO
 
 setfacl -m g:LecturaEjecucion_2ESO:rx /media/alurod1862/Publico/1ESO
