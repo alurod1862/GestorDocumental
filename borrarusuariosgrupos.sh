@@ -7,7 +7,6 @@ userdel USU1_4ESO
 userdel USU1_1BATCH
 userdel USU1_2BATCH
 userdel USU1_1DAM
-userdel USU1_2DAM
 userdel Alumando
 userdel Profesorado
 userdel Administrador
@@ -46,11 +45,6 @@ groupdel 1DAM
 groupdel LecturaEjecucion_1DAM
 groupdel AccesoTotal_1DAM
 groupdel SinPermiso_1DAM
-
-groupdel 2DAM
-groupdel LecturaEjecucion_2DAM
-groupdel AccesoTotal_2DAM
-groupdel SinPermiso_2DAM
 
 
 groupdel Alumnado
