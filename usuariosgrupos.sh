@@ -35,11 +35,6 @@ groupadd LecturaEjecucion_1DAM
 groupadd AccesoTotal_1DAM
 groupadd SinPermiso_1DAM
 
-groupadd 2DAM
-groupadd LecturaEjecucion_2DAM
-groupadd AccesoTotal_2DAM
-groupadd SinPermiso_2DAM
-
 
 groupadd Alumnado
 groupadd Profesorado
@@ -54,32 +49,29 @@ useradd -m -s /bin/bash -G 4ESO USU1_4ESO
 useradd -m -s /bin/bash -G 1BATCH USU1_1BATCH
 useradd -m -s /bin/bash -G 2BATCH USU1_2BATCH
 useradd -m -s /bin/bash -G 1DAM USU1_1DAM
-useradd -m -s /bin/bash -G 2DAM USU1_2DAM
 useradd -m -s /bin/bash -G Alumnado Alumnado
 useradd -m -s /bin/bash -G Profesorado Profesorado
 useradd -m -s /bin/bash -G Administrador Administrador
 
 
 
-usermod -a -G AcessoTotal_1ESO,LecturaEjecucion_2ESO,LecturaEjecucion_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_1ESO
+usermod -a -G AcessoTotal_1ESO,LecturaEjecucion_2ESO,LecturaEjecucion_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM USU1_1ESO
 
-usermod -a -G LecturaEjecucion_1ESO,AcessoTotal_2ESO,LecturaEjecucion_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_2ESO
+usermod -a -G LecturaEjecucion_1ESO,AcessoTotal_2ESO,LecturaEjecucion_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM USU1_2ESO
 
-usermod -a -G LecturaEjecucion_1ESO,LecturaEjecucion_2ESO,AcessoTotal_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_3ESO
+usermod -a -G LecturaEjecucion_1ESO,LecturaEjecucion_2ESO,AcessoTotal_3ESO,LecturaEjecucion_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM USU1_3ESO
 
-usermod -a -G LecturaEjecucion_1ESO,LecturaEjecucion_2ESO,LecturaEjecucion_3ESO,AcessoTotal_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_4ESO
+usermod -a -G LecturaEjecucion_1ESO,LecturaEjecucion_2ESO,LecturaEjecucion_3ESO,AcessoTotal_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM USU1_4ESO
 
-usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,AcessoTotal_1BATCH,LecturaEjecucion_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_1BATCH
+usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,AcessoTotal_1BATCH,LecturaEjecucion_2BATCH,SinPermiso_1DAM USU1_1BATCH
 
-usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,LecturaEjecucion_1BATCH,AcessoTotal_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM USU1_2BATCH
+usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,LecturaEjecucion_1BATCH,AcessoTotal_2BATCH,SinPermiso_1DAM USU1_2BATCH
 
-usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,AcessoTotal_2DAM,Alumnado,Profesorado,Administrador USU1_1DAM
+usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,Alumnado,Profesorado,Administrador USU1_1DAM
 
-usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,AcessoTotal_2DAM,Alumnado,Profesorado,Administrador USU1_2DAM
+usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,Alumnado,Profesorado Administrador
 
-usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,AcessoTotal_2DAM,Alumnado,Profesorado Administrador
+usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,Alumnado Alumnado
 
-usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM,Alumnado Alumnado
-
-usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,SinPermiso_2DAM,Profesorado Profesorado
+usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,Profesorado Profesorado
 
