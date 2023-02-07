@@ -1,5 +1,8 @@
 #/bin/bash
 
+#FALTA CORREGIR ERRORES ACL y AÑADIR ACL de alurod1862 y de Publico
+
+
 #1ESO
 
 setfacl -m d:g:LecturaEjecucion_1ESO:rx /media/alurod1862/Publico/1ESO
