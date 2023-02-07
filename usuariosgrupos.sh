@@ -76,7 +76,7 @@ usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,Le
 
 usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,Alumnado,Profesorado,Administrador USU1_1DAM
 
-usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,Alumnado,Profesorado administrador
+usermod -a -G AcessoTotal_1ESO,AcessoTotal_2ESO,AcessoTotal_3ESO,AcessoTotal_4ESO,AcessoTotal_1BATCH,,AcessoTotal_2BATCH,,AcessoTotal_1DAM,Alumnado,Profesorado,Administrador administrador
 
 usermod -a -G SinPermiso_1ESO,SinPermiso_2ESO,SinPermiso_3ESO,SinPermiso_4ESO,SinPermiso_1BATCH,SinPermiso_2BATCH,SinPermiso_1DAM,Alumnado alumnado
 
