@@ -101,21 +101,6 @@ setfacl -m d:mask:rwx /media/alurod1862/Publico/1DAM
 setfacl -m mask:rwx /media/alurod1862/Publico/1DAM
 
 
-
-#2DAM
-
-setfacl -m d:g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/2DAM
-setfacl -m g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/2DAM
-setfacl -m d:g:AcessoTotal_2DAM:rwx /media/alurod1862/Publico/2DAM
-setfacl -m g:AcessoTotal_2DAM:rwx /media/alurod1862/Publico/2DAM
-setfacl -m d:g:SinPermiso_2DAM:x /media/alurod1862/Publico/2DAM
-setfacl -m g:SinPermiso_2DAM:x /media/alurod1862/Publico/2DAM
-setfacl -m d:other:0 /media/alurod1862/Publico/2DAM
-setfacl -m other:0 /media/alurod1862/Publico/2DAM
-setfacl -m d:mask:rwx /media/alurod1862/Publico/2DAM
-setfacl -m mask:rwx /media/alurod1862/Publico/2DAM
-
-
 #ALUMANADO
 
 setfacl -m d:g:Alumnado:r /media/alurod1862/Publico
@@ -208,19 +193,3 @@ setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/1DAM
 setfacl -m other:0 /media/alurod1862/Publico/Politecnic/1DAM
 setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/1DAM
 setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/1DAM
-
-
-setfacl -m d:g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/Politecnic/2DAM
-setfacl -m g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/Politecnic/2DAM
-setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/2DAM
-setfacl -m other:0 /media/alurod1862/Publico/Politecnic/2DAM
-setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/2DAM
-setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/2DAM
-
-
-
-
-
-
-
-
