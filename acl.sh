@@ -149,6 +149,77 @@ setfacl -m d:mask:rwx /media/alurod1862/Publico
 setfacl -m mask:rwx /media/alurod1862/Publico
 
 
+#POLITECNIC
+
+
+setfacl -m d:g:LecturaEjecucion_1ESO:rx /media/alurod1862/Publico/Politecnic/1ESO
+setfacl -m g:LecturaEjecucion_1ESO:rx /media/alurod1862/Publico/Politecnic/1ESO
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/1ESO
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/1ESO
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/1ESO
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/1ESO
+
+
+setfacl -m d:g:LecturaEjecucion_2ESO:rx /media/alurod1862/Publico/Politecnic/2ESO
+setfacl -m g:LecturaEjecucion_2ESO:rx /media/alurod1862/Publico/Politecnic/2ESO
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/2ESO
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/2ESO
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/2ESO
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/2ESO
+
+
+
+
+setfacl -m d:g:LecturaEjecucion_3ESO:rx /media/alurod1862/Publico/Politecnic/3ESO
+setfacl -m g:LecturaEjecucion_3ESO:rx /media/alurod1862/Publico/Politecnic/3ESO
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/3ESO
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/3ESO
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/3ESO
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/3ESO
+
+
+setfacl -m d:g:LecturaEjecucion_4ESO:rx /media/alurod1862/Publico/Politecnic/4ESO
+setfacl -m g:LecturaEjecucion_4ESO:rx /media/alurod1862/Publico/Politecnic/4ESO
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/4ESO
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/4ESO
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/4ESO
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/4ESO
+
+
+setfacl -m d:g:LecturaEjecucion_1BATCH:rx /media/alurod1862/Publico/Politecnic/1BATCH
+setfacl -m g:LecturaEjecucion_1BATCH:rx /media/alurod1862/Publico/Politecnic/1BATCH
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/1BATCH
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/1BATCH
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/1BATCH
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/1BATCH
+
+
+setfacl -m d:g:LecturaEjecucion_2BATCH:rx /media/alurod1862/Publico/Politecnic/2BATCH
+setfacl -m g:LecturaEjecucion_2BATCH:rx /media/alurod1862/Publico/Politecnic/2BATCH
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/2BATCH
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/2BATCH
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/2BATCH
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/2BATCH
+
+
+setfacl -m d:g:LecturaEjecucion_1DAM:rx /media/alurod1862/Publico/Politecnic/1DAM
+setfacl -m g:LecturaEjecucion_1DAM:rx /media/alurod1862/Publico/Politecnic/1DAM
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/1DAM
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/1DAM
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/1DAM
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/1DAM
+
+
+setfacl -m d:g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/Politecnic/2DAM
+setfacl -m g:LecturaEjecucion_2DAM:rx /media/alurod1862/Publico/Politecnic/2DAM
+setfacl -m d:other:0 /media/alurod1862/Publico/Politecnic/2DAM
+setfacl -m other:0 /media/alurod1862/Publico/Politecnic/2DAM
+setfacl -m d:mask:rwx /media/alurod1862/Publico/Politecnic/2DAM
+setfacl -m mask:rwx /media/alurod1862/Publico/Politecnic/2DAM
+
+
+
+
 
 
 
