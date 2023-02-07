@@ -9,7 +9,6 @@ setfacl -m g:4ESO:x /media/alurod1862
 setfacl -m g:1BATCH:x /media/alurod1862
 setfacl -m g:2BATCH:x /media/alurod1862
 setfacl -m g:1DAM:x /media/alurod1862
-setfacl -m g:administrador:x /media/alurod1862
 setfacl -m g:profesorado:x /media/alurod1862
 setfacl -m g:alumnado:x /media/alurod1862
 
@@ -23,7 +22,6 @@ setfacl -m g:4ESO:x /media/alurod1862/Publico
 setfacl -m g:1BATCH:x /media/alurod1862/Publico
 setfacl -m g:2BATCH:x /media/alurod1862/Publico
 setfacl -m g:1DAM:x /media/alurod1862/Publico
-setfacl -m g:administrador:x /media/alurod1862/Publico
 setfacl -m g:profesorado:x /media/alurod1862/Publico
 setfacl -m g:alumnado:x /media/alurod1862/Publico
 
@@ -235,7 +233,6 @@ setfacl -m g:4ESO:x /media/alurod1862/Publico/Politecnic
 setfacl -m g:1BATCH:x /media/alurod1862/Publico/Politecnic
 setfacl -m g:2BATCH:x /media/alurod1862/Publico/Politecnic
 setfacl -m g:1DAM:x /media/alurod1862/Publico/Politecnic
-setfacl -m g:administrador:x /media/alurod1862/Publico/Politecnic
 setfacl -m g:profesorado:x /media/alurod1862/Publico/Politecnic
 setfacl -m g:alumnado:x /media/alurod1862/Publico/Politecnic
 
