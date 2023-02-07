@@ -1,6 +1,17 @@
-#!/bin/bash
+mkdir /media/alurod1862/Publico
+mkdir /media/alurod1862/Publico/1ESO
+mkdir /media/alurod1862/Publico/2ESO
+mkdir /media/alurod1862/Publico/3ESO
+mkdir /media/alurod1862/Publico/4ESO
+mkdir /media/alurod1862/Publico/1BATCH
+mkdir /media/alurod1862/Publico/2BATCH
+mkdir /media/alurod1862/Publico/1DAM
 
-mkdir -p /media/alurod1862/Publico/{1ESO,2ESO,3ESO,4ESO,1BATCH,2BATCH,1DAM,2DAM}
-mkdir -p /media/alurod1862/Publico/Politecnic/{1ESO,2ESO,3ESO,4ESO,1BATCH,2BATCH,1DAM,2DAM}
-
-
+mkdir /media/alurod1862/Publico/Politecnic
+mkdir /media/alurod1862/Publico/Politecnic/1ESO
+mkdir /media/alurod1862/Publico/Politecnic/2ESO
+mkdir /media/alurod1862/Publico/Politecnic/3ESO
+mkdir /media/alurod1862/Publico/Politecnic/4ESO
+mkdir /media/alurod1862/Publico/Politecnic/1BATCH
+mkdir /media/alurod1862/Publico/Politecnic/2BATCH
+mkdir /media/alurod1862/Publico/Politecnic/1DAM
