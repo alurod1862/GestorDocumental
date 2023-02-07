@@ -1,5 +1,11 @@
 #/bin/bash
 
+#ADMINISTRADORES
+
+
+setfacl -m g:Administradores:rwx /media/alurod1862
+setfacl -m g:Administradores:rwx /media/alurod1862/Publico
+
 #ALUROD1862
 
 setfacl -m g:1ESO:x /media/alurod1862
