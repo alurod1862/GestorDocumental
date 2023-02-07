@@ -3,8 +3,8 @@
 #ADMINISTRADORES
 
 
-setfacl -m g:Administradores:rwx /media/alurod1862
-setfacl -m g:Administradores:rwx /media/alurod1862/Publico
+setfacl -m g:Administrador:rwx /media/alurod1862
+setfacl -m g:Administrador:rwx /media/alurod1862/Publico
 
 #ALUROD1862
 
