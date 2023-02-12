@@ -147,7 +147,7 @@ setfacl -m g:SinPermiso_4ESO: /media/alurod1862/Publico/1BATCH
 setfacl -m g:SinPermiso_1ESO: /media/alurod1862/Publico/1BATCH
 setfacl -m g:AcessoTotal_1DAM:rwx /media/alurod1862/Publico/1BATCH
 setfacl -m g:AcessoTotal_1BATCH:rwx /media/alurod1862/Publico/1BATCH
-setfacl -m g:LecturaEjecucion_2BATCH:rx /media/alurod1862/Publico/1BATCH
+setfacl -m g:LecturaEjecucion_1BATCH:rx /media/alurod1862/Publico/1BATCH
 setfacl -m g:Alumnado:x /media/alurod1862/Publico/1BATCH
 setfacl -m g:Profesorado:x /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:SinPermiso_2ESO: /media/alurod1862/Publico/1BATCH
@@ -156,7 +156,7 @@ setfacl -m d:g:SinPermiso_4ESO: /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:SinPermiso_1ESO: /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:AcessoTotal_1DAM:rwx /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:AcessoTotal_1BATCH:rwx /media/alurod1862/Publico/1BATCH
-setfacl -m d:g:LecturaEjecucion_2BATCH:rx /media/alurod1862/Publico/1BATCH
+setfacl -m d:g:LecturaEjecucion_1BATCH:rx /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:Alumnado:x /media/alurod1862/Publico/1BATCH
 setfacl -m d:g:Profesorado:x /media/alurod1862/Publico/1BATCH
 setfacl -m d:other:0 /media/alurod1862/Publico/1BATCH
